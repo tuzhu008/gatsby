@@ -8,11 +8,11 @@ class BrowserAPIDocs extends React.Component {
   render() {
     return (
       <Container>
-        <h1 css={{ marginTop: 0 }}>Gatsby Browser APIs</h1>
-        <h2 css={{ marginBottom: rhythm(1 / 2) }}>Usage</h2>
+        <h1 css={{ marginTop: 0 }}>Gatsby 浏览器 API</h1>
+        <h2 css={{ marginBottom: rhythm(1 / 2) }}>用法</h2>
         <p css={{ marginBottom: rhythm(1) }}>
-          Implement any of these APIs by exporting them from a file named{` `}
-          <code>gatsby-browser.js</code> in the root of your project.
+          从项目根目录下的一个名为{` `}
+          <code>gatsby-browser.js</code> 的文件的导出实现了这些 API。
         </p>
         <hr />
         <h2 css={{ marginBottom: rhythm(1 / 2) }}>APIs</h2>
@@ -25,7 +25,7 @@ class BrowserAPIDocs extends React.Component {
         </ul>
         <br />
         <hr />
-        <h2>Reference</h2>
+        <h2>参考</h2>
         <Functions functions={this.props.data.allDocumentationJs.edges} />
       </Container>
     )

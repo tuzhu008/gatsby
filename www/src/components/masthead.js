@@ -81,10 +81,10 @@ const MastheadContent = () => (
           },
         }}
       >
-        Blazing-fast static site generator for React
+        为 React 而生的非常快速的静态网站生成器
       </h1>
       <CtaButton to="/docs/">
-        <span css={{ verticalAlign: `middle` }}>Get Started</span>
+        <span css={{ verticalAlign: `middle` }}>开始</span>
         {` `}
         <ArrowForwardIcon
           css={{ verticalAlign: `baseline`, marginLeft: `.2em` }}

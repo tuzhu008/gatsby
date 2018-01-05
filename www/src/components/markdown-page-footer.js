@@ -40,7 +40,7 @@ export default class MarkdownPageFooter extends React.Component {
           <span css={{ lineHeight: rhythm(2) }}>Thank you!</span>
         ) : (
           <span css={{ lineHeight: rhythm(2) }}>
-            Was this helpful?{` `}
+            对您是否有帮助?{` `}
             <CheckIcon
               onClick={() => {
                 sendReview(true, this.props.page.parent.relativePath)
@@ -86,13 +86,13 @@ export default class MarkdownPageFooter extends React.Component {
               },
             },
           }}
-          href={`https://github.com/gatsbyjs/gatsby/blob/master/docs/${
+          href={`https://github.com/tuzhu008/gatsby_cn/blob/master/docs/${
             this.props.page.parent.relativePath
           }`}
         >
           <EditIcon css={{ fontSize: 20, position: `relative`, top: -2 }} />
           {` `}
-          edit this page on GitHub
+          在GitHub上编辑这个页面
         </a>
       </div>,
     ]

@@ -134,12 +134,12 @@ class IndexRoute extends React.Component {
                       padding: `${rhythm(1)} 0 ${rhythm(2)}`,
                     }}
                   >
-                    <h1 css={{ marginTop: 0 }}>Curious yet?</h1>
+                    <h1 css={{ marginTop: 0 }}>好奇吗？</h1>
                     <FuturaParagraph>
-                      It only takes a few minutes to get up and running!
+                    启动和运行只需要几分钟！
                     </FuturaParagraph>
                     <CtaButton to="/docs/" overrideCSS={{ marginTop: `1rem` }}>
-                      Get Started
+                      开始使用
                     </CtaButton>
                   </div>
                 </Container>
@@ -168,7 +168,7 @@ class IndexRoute extends React.Component {
                       },
                     }}
                   >
-                    Latest from the Gatsby blog
+                    Gatsby 的最新博客
                   </h2>
                   {blogPosts.edges.map(({ node }) => (
                     <BlogPostPreviewItem
@@ -181,7 +181,7 @@ class IndexRoute extends React.Component {
                     to="/blog/"
                     overrideCSS={{ marginBottom: rhythm(2) }}
                   >
-                    Read More
+                    阅读更多
                   </CtaButton>
                 </Container>
               </div>

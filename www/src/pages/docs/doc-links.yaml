@@ -1,86 +1,86 @@
-- title: Quick Start
+- title: 快速开始
   items:
-    - title: Getting Started
+    - title: 开始
       link: /docs/
-    - title: Using Starters
+    - title: 使用启动器
       link: /docs/gatsby-starters/
-    - title: Deploying
+    - title: 部署
       link: /docs/deploy-gatsby/
-    - title: Awesome Gatsby
+    - title: 了不起的 Gatsby
       link: /docs/awesome-gatsby/
-- title: Core Concepts
+- title: 核心概念
   items:
-    - title: Building with Components
+    - title: 组件构建
       link: /docs/building-with-components/
-    - title: Lifecycle APIs
+    - title: 生命周期 APIs
       link: /docs/gatsby-lifecycle-apis/
-    - title: Plugins
+    - title: 插件
       link: /docs/plugins/
-    - title: PRPL Pattern
+    - title: PRPL 模式
       link: /docs/prpl-pattern/
-    - title: Querying with GraphQL*
+    - title: 使用 GraphQL 查询*
       link: /docs/querying-with-graphql/
-- title: Guides
+- title: 指南
   items:
-    - title: Add 404 Page
+    - title: 添加 404 页面
       link: /docs/add-404-page/
-    - title: Adding Images, Fonts, and Files
+    - title: 添加图像、字体和文件
       link: /docs/adding-images-fonts-files/
-    - title: Browser Support
+    - title: 浏览器支持
       link: /docs/browser-support/
-    - title: Caching
+    - title: 缓存
       link: /docs/caching/
-    - title: Creating and Modifying Pages
+    - title: 创建和修改页面
       link: /docs/creating-and-modifying-pages/
-    - title: Create a source plugin
+    - title: 创建一个插件源
       link: /docs/create-source-plugin/
-    - title: Custom webpack config
+    - title: 自定义 webpack 配置
       link: /docs/add-custom-webpack-config/
-    - title: Customizing html.js
+    - title: 自定义 html.js
       link: /docs/custom-html/
-    - title: Debugging HTML Builds
+    - title: 调试 HTML 构建
       link: /docs/debugging-html-builds/
-    - title: Environment Variables
+    - title: 环境变量
       link: /docs/environment-variables/
     - title: Gatsby on Windows
       link: /docs/gatsby-on-windows/
-    - title: How Gatsby Works with GitHub Pages
+    - title: GitHub Pages
       link: /docs/how-gatsby-works-with-github-pages/
-    - title: Migrating from v0 to v1
+    - title: 从 v0 迁移到 v1
       link: /docs/migrating-from-v0-to-v1/
-    - title: Path Prefix
+    - title: 路径前缀
       link: /docs/path-prefix/
-    - title: Proxying API Requests
+    - title: 代理 API 请求
       link: /docs/api-proxy/
-    - title: Adding Markdown Pages
+    - title: 添加 Markdown 页面
       link: /docs/adding-markdown-pages/
-    - title: Adding a List of Markdown Blog Posts*
+    - title: 添加一个 Markdown 博客文章列表*
       link: /docs/adding-a-list-of-markdown-blog-posts/
-    - title: Adding Tags and Categories to Blog Posts*
+    - title: 在博客文章中添加标签和类别*
       link: /docs/adding-tags-and-categories-to-blog-posts/
-    - title: Creating Dynamically-Rendered Navigation*
+    - title: 创建动态渲染的导航*
       link: /docs/creating-dynamically-rendered-navigation/
-    - title: Dropping Images into Static Folders*
+    - title: 将图像放入静态文件夹中*
       link: /docs/dropping-images-into-static-folders/
-- title: Reference
+- title: 参考
   items:
-    - title: Node Interface
+    - title: Node 接口
       link: /docs/node-interface/
-    - title: API Specification
+    - title: API 规范
       link: /docs/api-specification/
-    - title: Bound Action Creators
+    - title: 绑定 Action Creators
       link: /docs/bound-action-creators/
-    - title: Gatsby Browser APIs
+    - title: Gatsby 浏览器 APIs
       link: /docs/browser-apis/
     - title: Gatsby Node APIs
       link: /docs/node-apis/
     - title: Gatsby SSR APIs
       link: /docs/ssr-apis/
-- title: Contributing
+- title: 贡献
   items:
-    - title: How to Contribute
+    - title: 如何贡献
       link: /docs/how-to-contribute/
-    - title: Gatsby Style Guide
+    - title: Gatsby 样式指南
       link: /docs/gatsby-style-guide/
-    - title: Design Principles*
+    - title: 设计原则*
       link: /docs/design-principles/

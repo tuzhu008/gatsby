@@ -1,8 +1,8 @@
 ---
-title: "Deploying Gatsby"
+title: "部署 Gatsby"
 ---
 
-## Tutorials for deploying on different static site hosts
+## 在不同的静态站点主机上部署的教程
 
 * [S3/Cloudfront](/docs/deploy-gatsby/#amazon-s3-and-cloudfront)
 * [GitHub Pages](/docs/deploy-gatsby/#github-pages)
@@ -22,68 +22,66 @@ Without this change,
 
 ## GitHub Pages
 
-### Deploying a project page
+### 部署项目页面
 
-You can deploy sites on GitHub Pages with or without a custom domain. If you
-choose to use the default setup (without a custom domain), or if you create a
-project site, you will need to setup your site with
-[path prefixing](/docs/path-prefix/).
+您可以在 GitHub Pages 上部署站点，或者不使用自定义域名。
+如果您选择使用默认的设置(不使用自定义域名)，或者您创建一个项目站点，
+您将需要使用[路径前缀](/docs/path-prefix/)来设置您的站点。
 
-On Github, you get one site per GitHub account and organization, and unlimited
-project sites. So it is most likely you will be creating a project site. If you
-do not have an existing repository on Github that you plan to use, take the time
-now to create a new repository on Github.
+在 Github 上，你可以在 Github 的帐号和组织中获得一个站点，
+以及无限的项目站点。所以你很有可能会创建一个项目网站。
+如果你没有计划使用的 Github 现有的存储库，那么现在就花时间在 Github上 创建一个新的存储库。
 
-### Use the NPM package `gh-pages` for deploying
+### 使用 NPM 包 `gh-pages` 来部署
 
-First add **gh-pages** as a `devDependency` of your site and create an npm
-script to **deploy** your project by running `npm install gh-pages --save-dev`
-or `yarn add gh-pages --dev` (if you have yarn installed).
+首先添加 **gh-pages** 作为你的站点的一个 `devDependency`，然后运行
 
-Then add a `deploy` script in your `package.json` file.
-
+```bash
+npm install gh-pages --save-dev
 ```
+或
+```bash
+yarn add gh-pages --dev
+```
+
+然后添加一个 `deploy` 脚本到 `package.json` 文件中，用来部署项目：
+
+```js
 "scripts": {
-  "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+  "deploy": "gatsby build --prefix-paths && gh-pages -d public"
 }
 ```
 
-In the `gatsby-config.js`, set the `pathPrefix` to be added to your site's link
-paths. The `pathPrefix` should be the project name in your repository. (ex.
-`https://github.com/username/project-name` - your `pathPrefix` should be
-`/project-name`). See
-[the docs page on path prefixing for more](/docs/path-prefix/).
+在 `gatsby-config.js` 中，设置 `pathPrefix` 为被添加到你的网站的链接路径。
+`pathPrefix` 应该是你的存储库的项目名称。(ex.
+`https://github.com/username/project-name` -  `pathPrefix` 应该是
+`/project-name`)。参见
+[路径前缀的文档页面](/docs/path-prefix/).
 
-```
+```js
 module.exports = {
   pathPrefix: `/project-name`,
 }
 ```
 
-If you have not yet initialized a git repository in your working gatsby site
-repo, set up git in your project with `git init`. Then tell Gatsby where to
-deploy your site by adding the git remote address with https or ssh. Here is how
-to do it with https: `git remote add origin git@github.com:username/project-name.git`.
+如果您还没有在您的工作的 gatsby 站点 repo 中初始化 git 存储库，
+那么在您的项目中使用 `git init` 在您的项目中设置 git。
+然后告诉 Gatsby 在哪里部署您的站点，通过使用 https 或 ssh 添加 git 远程地址。
+下面是如何使用 `git remote add origin git@github.com:username/project-name.git`。
 
-Now run `yarn deploy` or `npm run deploy`. Preview changes in your GitHub page
-`https://username.github.io/project-name/`. You can also find the link to your
-site on GitHub under `Settings` > `GitHub Pages`.
+现在运行 `yarn deploy` 或 `npm run deploy`。
+在 GitHub page `https://username.github.io/project-name/` 预览变化。
+你还可以在 GitHub 下的 `Settings` > `GitHub Pages` 找到你的网站链接。
 
-### Deploying a user/organization site
+### 部署一个用户/组织的网站
 
-Unlike project pages, user/organization sites on GitHub live in a special
-repository dedicated to files for the site. The sites must be published from the
-`master` branch of the repository which means the site source files should be
-kept in a branch named `source` or something similar. We also don't need to
-prefix links like we do with project sites.
+与项目页面不同的是，GitHub 上的用户/组织站点都位于特别的存储库中，专门用于站点文件。
+站点必须从存储库的 `master` 分支发布，这意味着站点源文件应该保存在一个名为 `source` 的分支或类似的分支中。
+我们也不需要像与项目网站一样，对链接添加前缀。
 
-The repository for these sites requires a special name. See
-https://help.github.com/articles/user-organization-and-project-pages/ for
-documentation on naming your site's repository.
+这些站点的存储库需要一个特殊的名称。请参阅 https://help.github.com/articles/user-organization-and-project-pages/  获取关于命名站点的存储库的文档。
 
-If you wish to link your custom domain with your `user.github.io` repo, you will need
-a `CNAME` file inside the `static` folder at the root directory level with the your
-custom domain url inside, like so:
+如果您希望将您的自定义域名与您的 `user.github.io` repo 连接起来，你需要在根目录层的 `static` 文件夹里的 `static` 种自定义域名 url，就像这样:
 
 ```
 your-custom-domain.com

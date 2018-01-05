@@ -26,6 +26,7 @@
     "eslint-plugin-prettier": "^2.2.0",
     "eslint-plugin-react": "^7.3.0",
     "flow-bin": "^0.42.0",
+    "gh-pages": "^1.1.0",
     "glob": "^7.1.1",
     "jest": "^20.0.4",
     "jest-cli": "^20.0.4",
@@ -63,7 +64,7 @@
     "test:update": "jest --updateSnapshot",
     "test:watch": "jest --watch",
     "test_bkup": "npm run lint && npm run test-node && npm run test-integration",
-    "watch": "lerna run watch --no-sort --stream --concurrency 999"
+    "watch": "lerna run watch --no-sort --stream --concurrency 999",
   },
   "workspaces": [
     "packages/*"

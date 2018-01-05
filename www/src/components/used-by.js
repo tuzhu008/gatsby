@@ -122,7 +122,7 @@ const UsedBy = () => (
           },
         }}
       >
-        Used by
+        谁在使用
       </p>
       <ul
         css={{

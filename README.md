@@ -9,11 +9,11 @@
 
 # Gatsby
 
-⚛️📄🚀 Blazing-fast static site generator for React
+⚛️📄🚀 用于 React 的快速静态站点生成器
 
-## Showcase
+## 展示
 
-Websites built with Gatsby:
+使用  Gatsby 构建的网站:
 
 * [React](https://reactjs.org/)
   ([source](https://github.com/reactjs/reactjs.org))
@@ -130,29 +130,27 @@ Websites built with Gatsby:
 * [A4 纸网](http://www.a4z.cn)([source](https://github.com/hiooyUI/hiooyui.github.io))
 * [manu.ninja](https://manu.ninja/) ([source](https://github.com/Lorti/manu.ninja))
 
-## Docs
+## 文档
 
-**[View the docs on gatsbyjs.org](https://www.gatsbyjs.org/docs/)**
+**[查看文档请移步 gatsbyjs.org](https://www.gatsbyjs.org/docs/)**
 
-[Migrating from v0 to v1?](https://www.gatsbyjs.org/docs/migrating-from-v0-to-v1/)
+[从 v0 迁移到 v1?](https://www.gatsbyjs.org/docs/migrating-from-v0-to-v1/)
 
-[v0 docs](https://github.com/gatsbyjs/gatsby/blob/v0.12.48/docs/index.md)
+[v0  文档](https://github.com/gatsbyjs/gatsby/blob/v0.12.48/docs/index.md)
 
-## Packages
+## 包
 
-This repository is a monorepo managed using
-[Lerna](https://github.com/lerna/lerna). This means that we publish
-[many packages](/packages) to NPM from the same codebase.
+这个存储库是一个 monorepo，使用  [Lerna](https://github.com/lerna/lerna) 进行管理。 这意味着我们从同一个代码库发布
+[许多 packages](/packages) 到 NPM 。
 
-## Thanks
+## 致谢
 
-Thanks to our many contributors and sponsors as well as the companies sponsoring
-our testing and hosting infrastructure, Travis CI, Appveyor, and Netlify.
+感谢我们的许多贡献者和赞助商，以及赞助我们的测试和托管基础设施的公司，Travis CI, Appveyor, 和 Netlify。
 
-## Backers
+## 支持者
 
-Support us with a monthly donation and help us continue our activities.
-[[Become a backer](https://opencollective.com/gatsby#backer)]
+每月的捐款支持我们，并帮助我们继续我们的活动。
+[[成为一个支持者](https://opencollective.com/gatsby#backer)]
 
 <a href="https://opencollective.com/gatsby/backer/0/website" target="_blank"><img src="https://opencollective.com/gatsby/backer/0/avatar.svg"></a>
 <a href="https://opencollective.com/gatsby/backer/1/website" target="_blank"><img src="https://opencollective.com/gatsby/backer/1/avatar.svg"></a>

@@ -72,7 +72,7 @@ export default ({ functions }) => (
         />
         {(node.params && node.params.length) > 0 && (
           <div>
-            <h4>Parameters</h4>
+            <h4>参数</h4>
             {node.params.map(param => Param(param, 0))}
           </div>
         )}
@@ -80,7 +80,7 @@ export default ({ functions }) => (
         {node.examples &&
           node.examples.length > 0 && (
             <div>
-              <h4 css={{ marginTop: rhythm(1) }}>Example</h4>
+              <h4 css={{ marginTop: rhythm(1) }}>示例</h4>
               {` `}
               {node.examples.map((example, i) => (
                 <pre key={`${node.name} example ${i}`}>

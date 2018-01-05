@@ -5,7 +5,7 @@ class FourOhFour extends React.Component {
   render() {
     return (
       <Container>
-        <h1>Page not found</h1>
+        <h1>页面没有找到,嘤嘤嘤...</h1>
       </Container>
     )
   }

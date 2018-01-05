@@ -1,64 +1,64 @@
-- title: Tutorial
+- title: 教程
   items:
-    - title: Introduction
+    - title: 介绍
       link: /tutorial/
-    - title: Part One
+    - title: 第 Ⅰ 部分
       link: /tutorial/part-one/
       items:
-        - title: Check Environment
+        - title: 检查环境
           link: /tutorial/part-one/#check-your-development-environment
         - title: Creating a Gatsby site from scratch
           link: /tutorial/part-one/#install-the-hello-world-starter
-        - title: Linking between pages
+        - title: 链接两个页面
           link: /tutorial/part-one/#linking-between-pages
-        - title: Interactive page
+        - title: 交互式页面
           link: /tutorial/part-one/#interactive-page
-        - title: Deploying Gatsby.js websites on the web
+        - title: 在网络上部署 Gatsby.js 网站
           link: /tutorial/part-one/#deploying-gatsbyjs-websites-on-the-web
-    - title: Part Two
+    - title: 第 Ⅱ 部分
       link: /tutorial/part-two/
       items:
-        - title: Building with components
+        - title: 组件构建
           link: /tutorial/part-two/#building-with-components
-        - title: Creating Global Styles
+        - title: 创建 Global 样式
           link: /tutorial/part-two/#creating-global-styles
         - title: Typography.js
           link: /tutorial/part-two/#typographyjs
-        - title: Gatsby Plugins
+        - title: Gatsby 插件
           link: /tutorial/part-two/#gatsby-plugins
         - title: Component CSS
           link: /tutorial/part-two/#component-css
-        - title: CSS Modules
+        - title: CSS 模块
           link: /tutorial/part-two/#css-modules
         - title: Glamor
           link: /tutorial/part-two/#glamor
-        - title: Styled Components
+        - title: 样式组件
           link: /tutorial/part-two/#styled-components
-    - title: Part Three
+    - title: 第 Ⅲ 部分
       link: /tutorial/part-three/
       items:
-        - title: Our first layout component
+        - title: 我们的第一个布局组件
           link: /tutorial/part-three/#our-first-layout-component
-    - title: Part Four
+    - title: 第 Ⅳ 部分
       link: /tutorial/part-four/
       items:
-        - title: Recap of first half of the tutorial
+        - title: 回顾本教程的前半部分
           link: /tutorial/part-four/#recap-of-first-half-of-the-tutorial
-        - title: Data in Gatsby
+        - title: Gatsby 种的数据
           link: /tutorial/part-four/#data-in-gatsby
-        - title: "How Gatsby’s data layer uses GraphQL to pull data into components"
+        - title: "Gatsby 的数据层如何使用 GraphQL 将数据拉入组件"
           link: /tutorial/part-four/#how-gatsbys-data-layer-uses-graphql-to-pull-data-into-components
-        - title: Our first GraphQL query
+        - title: 我们的第一个 GraphQL 查询
           link: /tutorial/part-four/#our-first-graphql-query
-        - title: Introducing GraphiQL
+        - title: 介绍 GraphiQL
           link: /tutorial/part-four/#introducing-graphiql
         - title: Source Plugins
           link: /tutorial/part-four/#source-plugins
-        - title: Build a page with a GraphQL query
+        - title: 使用 GraphQL 查询构建一个页面
           link: /tutorial/part-four/#build-a-page-with-a-graphql-query
         - title: Transformer Plugins
           link: /tutorial/part-four/#transformer-plugins
-        - title: "Create a list of our site’s markdown files in src/pages/index.js"
+        - title: "在 src/pages/index.js 中创建站点的 markdown 文件列表"
           link: /tutorial/part-four/#create-a-list-of-our-sites-markdown-files-in-srcpagesindexjs
-        - title: Programmatically creating pages from data
+        - title: 从数据以编程方式创建页面
           link: /tutorial/part-four/#programmatically-creating-pages-from-data

@@ -1,10 +1,10 @@
-- title: Introduction
+- title: 介绍
   items:
-    - title: Introduction
+    - title: 简介
       link: "#introduction"
-    - title: Legend
+    - title: 备注
       link: "#legend"
-- title: Performance
+- title: 性能
   items:
     - title: Static content
       link: "#static-content"
@@ -28,7 +28,7 @@
       link: "#inlines-critical-css"
     - title: Font self-hosting
       link: "#font-self-hosting"
-- title: Developer Experience
+- title: 开发者经验
   items:
     - title: Serverless
       link: "#serverless"
@@ -54,7 +54,7 @@
       link: "#css-extensions-(eg-sass)"
     - title: Advanced Javascript syntax
       link: "#advanced-javascript-syntax"
-- title: Ecosystem
+- title: 生态系统
   items:
     - title: Component ecosystem
       link: "#component-ecosystem"
@@ -62,7 +62,7 @@
       link: "#hosted-option"
     - title: Theme ecosystem
       link: "#theme-ecosystem"
-- title: Design
+- title: 设计
   items:
     - title: Programmatic Design
       link: "#programmatic-design"

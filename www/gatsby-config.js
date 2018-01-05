@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Gatsby`,
-    siteUrl: `https://www.gatsbyjs.org`,
+    siteUrl: `https://tuzhu008.github.io`,
     description: `Blazing-fast static site generator for React`,
   },
+  pathPrefix:`/gatsby_cn`,
   mapping: {
     "MarkdownRemark.frontmatter.author": `AuthorYaml`,
   },
@@ -31,7 +32,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://www.gatsbyjs.org`,
+        siteUrl: `https://tuzhu008.github.io`,
       },
     },
     `gatsby-transformer-sharp`,

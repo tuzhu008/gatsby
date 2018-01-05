@@ -237,17 +237,15 @@ const Diagram = ({ containerCSS }) => (
       },
     }}
   >
-    <h1 css={{ marginBottom: rhythm(1.5), ...scale(0.9) }}>How Gatsby works</h1>
+    <h1 css={{ marginBottom: rhythm(1.5), ...scale(0.9) }}>Gatsby 如何工作</h1>
     <div css={{ maxWidth: rhythm(20), margin: `0 auto ${rhythm(2)}` }}>
       <FuturaParagraph>
-        Gatsby lets you build blazing-fast sites with <em>your data</em>,
-        whatever the source. Liberate your sites from legacy CMSs and fly into
-        the future.
+        Gatsby可以使用 <em>您的数据</em> 创建超快速的网站，无论数据的来源。从遗留的 CMS 中解放您的网站，飞向未来。
       </FuturaParagraph>
     </div>
 
     <Segment className="Source">
-      <SegmentTitle>Data Sources</SegmentTitle>
+      <SegmentTitle>数据来源</SegmentTitle>
       <SourceItems>
         <SourceItem>
           <ItemTitle>CMSs</ItemTitle>
@@ -268,7 +266,7 @@ const Diagram = ({ containerCSS }) => (
 
     <Segment className="Build">
       <VerticalLine />
-      <SegmentTitle>Build</SegmentTitle>
+      <SegmentTitle>构建</SegmentTitle>
       <div
         css={{
           ...box,
@@ -303,14 +301,14 @@ const Diagram = ({ containerCSS }) => (
 
     <Segment className="Deploy">
       <VerticalLine />
-      <SegmentTitle>Deploy</SegmentTitle>
+      <SegmentTitle>部署</SegmentTitle>
       <div
         css={{
           ...box,
           paddingBottom: rhythm(1),
         }}
       >
-        <ItemTitle>Static Web Host</ItemTitle>
+        <ItemTitle>静态 Web 主机</ItemTitle>
         <ItemDescription>
           Amazon S3, Netlify, GitHub Pages, Surge.sh, Aerobatic, Now.sh, & many
           more
