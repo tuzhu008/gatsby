@@ -132,7 +132,9 @@
 
 ## 文档
 
-**[查看文档请移步 gatsbyjs.org](https://www.gatsbyjs.org/docs/)**
+**[英文文档请移步](https://www.gatsbyjs.org/docs/)**
+
+**[中文文档请移步](https://tuzhu008.github.io/gatsby_cn/docs/)**
 
 [从 v0 迁移到 v1?](https://www.gatsbyjs.org/docs/migrating-from-v0-to-v1/)
 
